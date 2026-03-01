@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/pages/</loc>
+  </url><url>
+    <loc>/pages/info1/info1/</loc>
+  </url><url>
+    <loc>/pages/info2/info2/</loc>
+  </url><url>
+    <loc>/pages/info3/info3/</loc>
+  </url><url>
+    <loc>/pages/info4/info4/</loc>
+  </url><url>
+    <loc>/pages/info5/info5/</loc>
+  </url><url>
+    <loc>/pages/info6/info6/</loc>
+  </url><url>
+    <loc>/pages/info7/info7/</loc>
+  </url><url>
+    <loc>/pages/info8/info8/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url>
+</urlset>

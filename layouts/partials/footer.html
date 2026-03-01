@@ -1,0 +1,36 @@
+<div class="container py-4">
+  <div class="row">
+    <div class="col-md-6 col-lg-4">
+      <p class="text-uppercase fw-bold">{{ site.Title }}</p>
+      <p>
+        {{ i18n "contact" | default "Contact" }}
+        <br />
+        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+      </p>
+      
+      <p>
+        Suivez-nous
+        <br />
+        <a href="https://www.facebook.com/1003567892841323" target="_blank" class="text-white">
+          <i class="bi bi-facebook"></i> Facebook
+        </a>
+      </p>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+      <p class="text-uppercase fw-bold">Navigation</p>
+      {{ range site.RegularPages }}
+      <div>
+        <a href="{{ .RelPermalink }}" class="text-white text-decoration-none">{{ .LinkTitle }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+<p>
+  Notre programme complet
+  <br />
+  <a href="/documents/programme-cultivons-notre-avenir.pdf" target="_blank" class="text-white text-decoration-none">
+    <i class="bi bi-file-earmark-pdf"></i> Télécharger le PDF
+  </a>
+</p>

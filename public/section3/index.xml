@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Section3s on </title>
+    <link>//localhost:1313/section3/</link>
+    <description>Recent content in Section3s on </description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <atom:link href="//localhost:1313/section3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Info</title>
+      <link>//localhost:1313/section3/info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/section3/info/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla gravida&#xA;lacinia. Maecenas eu justo erat. Donec at sem finibus est sodales iaculis. Nam&#xA;et nulla et elit varius interdum vel eget libero. In vel ex id justo venenatis&#xA;vulputate id a nunc. Suspendisse dignissim libero ut dui tempus volutpat.&#xA;Aliquam eleifend tempus vulputate. Vestibulum in eleifend quam. Mauris at porta&#xA;tortor. Curabitur ut dictum neque, vitae commodo velit. Praesent condimentum,&#xA;sem eget vestibulum tempus, augue tellus consequat ipsum, in eleifend lacus arcu&#xA;ac risus. Fusce id fringilla orci.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/section3/info9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/section3/info9/</guid>
+      <description>&lt;p&gt;title: &amp;ldquo;L&amp;rsquo;Équipe&amp;rdquo;&#xA;weight: 30&#xA;cols: 2&#xA;icon: people-fill&#xA;iconColor: &amp;ldquo;#ffffff&amp;rdquo;&#xA;iconBgColor: &amp;ldquo;#FFC107&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;Une équipe de 17 citoyennes et citoyens engagés, représentatifs de la diversité et des générations de Kergrist-Moëlou.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Koulm STEPHAN&#xA;&#xA;Anne-Sophie OUDIN&#xA;&#xA;Steven GÉRARD&#xA;&#xA;Anna CORBEL&#xA;&#xA;Roland LE CAM&#xA;&#xA;Inès LÉRAUD&#xA;&#xA;Serge BÉGOT&#xA;&#xA;Sabrina COL&#xA;&#xA;Léandre MANDARD&#xA;&#xA;Alice STERNBERG&#xA;&#xA;Jean-Nicolas BÉASSE&#xA;&#xA;Adriane BUCKULCIK&#xA;&#xA;Alexis ROCHE&#xA;&#xA;Julie POISSON&#xA;&#xA;Franck LE BOEDEC&#xA;&#xA;Carine BONNET&#xA;&#xA;Jérôme LETORT&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+{{ $bootstrap := resources.Get "css/bootstrap/bootstrap.min.css" }}
+{{ $bootstrapIcons := resources.Get "css/bootstrap-icons/bootstrap-icons.min.css" }}
+{{ $main := resources.Get "css/main.css" | resources.ExecuteAsTemplate "css/main.css" . | minify }}
+
+{{ with $bootstrap }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}
+{{ with $bootstrapIcons }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}
+{{ with $main }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}

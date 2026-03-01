@@ -1,0 +1,175 @@
+header {
+}
+
+#menu {
+  position: fixed;
+}
+
+#banner img {
+  max-height: 484px;
+}
+
+#menu img {
+  height: 180px;
+}
+
+.menu-button {
+  color: #2c5e2e !important; /* Vert foncé */
+  background-color: #f7e018 !important; /* Jaune */
+  border-radius: 0px !important;
+  opacity: 1 !important;
+}
+
+#sideMenu {
+  color: white !important;
+  background-color: #2c5e2e;
+}
+
+#sideMenu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#sideMenu a:hover {
+  color: #f7e018 !important;
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+.section a {
+  text-decoration: none;
+  color: black;
+}
+
+.section .icon {
+  font-size: 8rem;
+}
+
+#instafeed img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 20rem;
+  margin-bottom: 5rem;
+}
+
+.big-content {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 3rem 0;
+  color: #ffffff;
+  background-color: #2c5e2e;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 1600px) {
+  #menu {
+    position: static;
+    padding-bottom: 1rem;
+    border-bottom: thin solid #2c5e2e;
+  }
+
+  .content {
+    margin-top: 5rem;
+  }
+
+  .big-content {
+    margin-top: 2rem;
+  }
+}
+/* Pour les titres des sections (info1, info2...) */
+section h2, .section h2, h2.display-5 {
+    color: #2c5e2e !important; 
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+/* Pour le texte "Logo" en bleu qui refuse de partir */
+.navbar-brand, #menu a {
+    color: transparent !important; /* On cache le texte bleu si l'image ne vient pas */
+}
+/* --- AMÉLIORATIONS VISUELLES GLOBALES --- */
+
+/* Fond légèrement grisé pour faire ressortir les blocs blancs */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* --- LE TEXTE D'INTRO (Qui sommes-nous) --- */
+/* (Code à mettre si tu as ajouté le texte dans layouts/index.html) */
+.intro-texte {
+    padding: 60px 0;
+    background-color: #ffffff;
+    border-bottom: 3px solid #f7e018; /* Rappel jaune */
+}
+
+.intro-texte h1 {
+    color: #2c5e2e; /* Ton vert forêt */
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.intro-texte p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- LA GRILLE DES 6 POINTS (Les Boutons) --- */
+/* On transforme les blocs blancs en cartes cliquables et élégantes */
+.section-item {
+    background: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 10px; /* Coins arrondis */
+    padding: 30px;
+    transition: all 0.3s ease; /* Animation fluide au survol */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Ombre légère */
+}
+
+/* Effet au survol : la carte se lève et l'ombre s'accentue */
+.section-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: #2c5e2e;
+}
+
+/* Icônes plus grandes et colorées */
+.section-icon i {
+    font-size: 3rem;
+    color: #f7e018; /* Ton jaune */
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Titres des sections en vert */
+.section-title {
+    color: #2c5e2e;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Lien pour rendre toute la carte cliquable */
+.section-link {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,7 @@
+{{ $bootstrap := resources.Get "js/bootstrap/bootstrap.bundle.min.js" }}
+
+{{ with $bootstrap }}
+
+<script src="{{ .RelPermalink }}" defer></script>
+
+{{ end }}

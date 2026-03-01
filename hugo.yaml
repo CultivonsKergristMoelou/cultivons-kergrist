@@ -1,0 +1,27 @@
+assetDir: "assets"
+publishDir: "public"
+defaultContentLanguage: fr
+
+module:
+  hugoVersion:
+    extended: false
+    min: 0.116.0
+
+params:
+  email: 'avenir.kergrist-moelou@protonmail.com'
+  favicon: "favicon.ico"
+  logo: "logocultivonkergrist.png"
+  banner: "banner.jpg"
+  
+  # AJOUT : Dit au thème d'aspirer les fichiers du dossier 'content/section'
+  mainSections: ["pages"] 
+
+  instagram:
+    enabled: false
+    tokenURL: ''
+    url: ''
+
+  style:
+    brandColor1: '#2c5e2e' # Ton vert foncé
+    brandColor2: '#f7e018' # Ton jaune
+    brandColor3: '#ffffff'
