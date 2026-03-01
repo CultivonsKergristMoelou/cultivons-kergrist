@@ -173,3 +173,31 @@ body {
     text-decoration: none;
     color: inherit;
 }
+/* --- AMÉLIORATION DE LA LISIBILITÉ --- */
+
+/* Texte général du site */
+body {
+    font-size: 1.1rem; /* On augmente la base */
+    line-height: 1.6;  /* On aère les lignes pour que ce soit moins dense */
+}
+
+/* Texte spécifique aux pages (info1, info2...) */
+.content {
+    font-size: 1.2rem; /* Texte bien lisible pour le programme */
+    padding: 20px 0;
+}
+
+/* --- RÉGLAGES SPÉCIFIQUES POUR MOBILE --- */
+@media (max-width: 768px) {
+    .intro-texte p {
+        font-size: 1.1rem !important; /* Texte d'intro plus gros sur tel */
+    }
+    
+    .content {
+        font-size: 1.15rem !important; /* Texte des sections plus gros sur tel */
+    }
+    
+    h1 {
+        font-size: 1.6rem !important; /* Titres bien visibles sans déborder */
+    }
+}
