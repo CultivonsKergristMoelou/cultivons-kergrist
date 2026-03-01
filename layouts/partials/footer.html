@@ -28,6 +28,9 @@
     <div class="col-md-6 col-lg-4">
       <p class="text-uppercase fw-bold">Navigation</p>
       {{ range site.RegularPages }}
+       <div>
+        <a href="{{ .RelPermalink }}" class="text-white text-decoration-none">{{ .LinkTitle }}</a>
+      </div>
       {{ end }}
     </div>
   </div>
