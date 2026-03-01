@@ -5,12 +5,25 @@ title: "6. SOLIDARITÉS // TUD O HARPAÑ AN EIL DEUS EGILE"
 weight: 60
 ---
 
-Création d’une réserve citoyenne destinée à organiser l’entraide, notamment face aux
-situations de crise (tempêtes, incendies, canicules…).
-Nous favoriserons les liens et évènements intergénérationnels et proposerons aux
-seniors et aux personnes isolées d’avoir une personne référente au sein de la réserve
-citoyenne afin de les aider, par exemple pour les démarches administratives et l’accès
-à leurs droits…
-Nous étudierons la mise en place du dispositif « Argent de poche » proposé par la
-CAF, qui permet aux jeunes de 14-18 ans de découvrir le monde professionnel et de
-participer à la vie de leur commune à travers des petits chantiers rémunérés.
+🤝 Solidarités : L'entraide au cœur de notre action
+
+🛡️ Une « Réserve Citoyenne » pour ne laisser personne seul
+Nous créerons une réserve citoyenne pour organiser la solidarité concrète, particulièrement face aux coups durs :
+
+    ⛈️ Situations de crise : Tempêtes, incendies, canicules...
+
+    🆘 Entraide de proximité : Un réseau de bénévoles prêts à agir pour la commune.
+
+👵 Accompagner nos seniors et rompre l'isolement
+Parce que le lien entre les générations est essentiel, nous favoriserons les événements intergénérationnels :
+
+    👤 Une personne référente au sein de la réserve pour chaque senior ou personne isolée qui le souhaite.
+
+    ✍️ Aide concrète : Assistance pour les démarches administratives et l’accès aux droits.
+
+💰 Dispositif « Argent de poche » pour nos jeunes
+Nous voulons impliquer la jeunesse (14-18 ans) dans la vie de Kergrist-Moëlou :
+
+    🛠️ Petits chantiers rémunérés : Pour découvrir le monde professionnel tout en rendant service à la commune.
+
+    🇪🇺 Soutien via le dispositif de la CAF.

@@ -3,17 +3,20 @@ title: "2. AVENIR DE LA COMMUNE // AR GUMUN A-BENN ARC’HOAZH"
 
 weight: 20
 ---
-Nous veillerons à la maîtrise du budget : notre commune doit investir dans son avenir
-tout en conservant son équilibre financier.
-Le projet de rénovation de l’école doit être réexaminé en tenant compte de l’avis de la
-population. Son coût doit être adapté en fonction des subventions disponibles et des
-possibilités financières de la commune. Nous étudierons également la réhabilitation du
-logement communal pour pouvoir le remettre en location.
-Nous veillerons au maintien des différents services présents sur la commune, comme le
-bar-épicerie et le bureau postal, ainsi qu’à l’attractivité de l’école.
-Au milieu du bourg, la « maison Bonhomme » se dégrade, nous devons réfléchir à son
-avenir. Plusieurs projets sont envisageables (nouveaux logements, local pour accueillir
-des praticien.nes de santé ou des assistant.es maternel.les...), qui restent à définir en
-concertation avec les habitant.es. Un montage avec l’établissement public foncier de
-Bretagne est possible pour ne pas impacter les finances communales, voire procurer à la
-municipalité, à terme, un revenu.
+🏛️ L'Avenir de notre Commune : Agir avec Responsabilité
+
+💰 Une gestion budgétaire rigoureuse Nous veillerons à la maîtrise du budget : notre commune doit investir dans son avenir tout en conservant son équilibre financier.
+
+🏫 École : un projet à réexaminer ensemble Le projet de rénovation de l’école doit être réexaminé en tenant compte de l’avis de la population. Son coût sera adapté aux subventions disponibles et aux capacités de la commune. Nous étudierons aussi la réhabilitation du logement communal 🏠 pour le remettre en location.
+
+🏪 Soutien aux services de proximité Nous veillerons au maintien des services essentiels : le bar-épicerie 🛒, le bureau postal 📮 et l’attractivité de notre école.
+
+🏗️ Réhabiliter la « Maison Bonhomme » Située au cœur du bourg, elle se dégrade. Nous devons réfléchir à son avenir avec vous. Plusieurs pistes sont envisageables :
+
+    🛏️ Nouveaux logements.
+
+    🩺 Pôle de santé (praticien.nes).
+
+    🧸 Accueil petite enfance (assistant.es maternel.les).
+
+💡 Le saviez-vous ? Un montage avec l’Établissement Public Foncier de Bretagne 🗺️ est possible pour ne pas impacter les finances communales et générer, à terme, un revenu pour la municipalité.

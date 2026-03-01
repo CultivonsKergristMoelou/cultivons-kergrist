@@ -3,16 +3,6 @@ title: "1. VIE DÉMOCRATIQUE // DEMOKRATELEZH O VEVAÑ"
 weight: 10
 ---
 
-Dès notre élection, des réunions publiques régulières seront organisées afin que les
-grandes décisions du mandat (travaux de rénovation, aménagements) soient prises en
-concertation avec les habitant.es.
-Chaque Kergristois.e qui le souhaite pourra intégrer des commissions de travail du
-conseil municipal et participer à la gestion de notre commune.
-La communication et la transparence sont une priorité : la feuille d’information
-Petra ‘zo sera distribuée à tous les foyers chaque trimestre, et le bulletin communal
-paraîtra tous les 6 mois.
-Nous défendrons les intérêts de la commune au niveau de la CCKB, du Plan local
-d’urbanisme (PLU) et du Schéma d’aménagement et de gestion des eaux (SAGE).
 
 🗳️ Vie Démocratique
 
