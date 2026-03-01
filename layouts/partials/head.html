@@ -1,8 +1,7 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1" description="Retrouvez le programme électoral des municipales 2026 de Kergrist-Moelou avec la liste Cultivons notre avenir à Kergrist-Moelou.">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" page.Title site.Title }}{{ end }}</title>
 <link rel="icon"
       type="image/png"
       href="{{ (printf "images/%s" site.Params.favicon) | relURL }}">
 {{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}

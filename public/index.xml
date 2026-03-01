@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. VIE DÉMOCRATIQUE // DEMOKRATELEZH O VEVAÑ</title>
-      <link>/pages/info1/info1/</link>
+      <link>//localhost:1313/pages/programme/vie-democratique/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info1/info1/</guid>
-      <description>&lt;p&gt;Dès notre élection, des réunions publiques régulières seront organisées afin que les&#xA;grandes décisions du mandat (travaux de rénovation, aménagements) soient prises en&#xA;concertation avec les habitant.es.&#xA;Chaque Kergristois.e qui le souhaite pourra intégrer des commissions de travail du&#xA;conseil municipal et participer à la gestion de notre commune.&#xA;La communication et la transparence sont une priorité : la feuille d’information&#xA;Petra ‘zo sera distribuée à tous les foyers chaque trimestre, et le bulletin communal&#xA;paraîtra tous les 6 mois.&#xA;Nous défendrons les intérêts de la commune au niveau de la CCKB, du Plan local&#xA;d’urbanisme (PLU) et du Schéma d’aménagement et de gestion des eaux (SAGE).&lt;/p&gt;</description>
+      <guid>//localhost:1313/pages/programme/vie-democratique/</guid>
+      <description>&lt;p&gt;🗳️ Vie Démocratique&lt;/p&gt;&#xA;&lt;p&gt;Instaurer des réunions publiques régulières et une transparence totale avec le journal Petra &amp;lsquo;zo.&lt;/p&gt;&#xA;&lt;p&gt;🏫 Avenir du Bourg&lt;/p&gt;&#xA;&lt;p&gt;Maintien de l&amp;rsquo;école, réhabilitation de la Maison Bonhomme et soutien actif à nos commerces locaux.&lt;/p&gt;&#xA;&lt;p&gt;🛣️ Infrastructures &amp;amp; Voirie&lt;/p&gt;&#xA;&lt;p&gt;Lancement d&amp;rsquo;un plan pluriannuel de rénovation de nos routes et sécurisation du bourg.&lt;/p&gt;&#xA;&lt;p&gt;🚜 Agriculture &amp;amp; Ruralité&lt;/p&gt;&#xA;&lt;p&gt;Protection des terres agricoles, préservation du bocage et défense de l&amp;rsquo;identité rurale.&lt;/p&gt;&#xA;&lt;p&gt;🤝 Solidarités&lt;/p&gt;</description>
     </item>
     <item>
       <title>2. AVENIR DE LA COMMUNE // AR GUMUN A-BENN ARC’HOAZH</title>
-      <link>/pages/info2/info2/</link>
+      <link>//localhost:1313/pages/programme/avenir-commune/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info2/info2/</guid>
-      <description>&lt;p&gt;Nous veillerons à la maîtrise du budget : notre commune doit investir dans son avenir&#xA;tout en conservant son équilibre financier.&#xA;Le projet de rénovation de l’école doit être réexaminé en tenant compte de l’avis de la&#xA;population. Son coût doit être adapté en fonction des subventions disponibles et des&#xA;possibilités financières de la commune. Nous étudierons également la réhabilitation du&#xA;logement communal pour pouvoir le remettre en location.&#xA;Nous veillerons au maintien des différents services présents sur la commune, comme le&#xA;bar-épicerie et le bureau postal, ainsi qu’à l’attractivité de l’école.&#xA;Au milieu du bourg, la « maison Bonhomme » se dégrade, nous devons réfléchir à son&#xA;avenir. Plusieurs projets sont envisageables (nouveaux logements, local pour accueillir&#xA;des praticien.nes de santé ou des assistant.es maternel.les&amp;hellip;), qui restent à définir en&#xA;concertation avec les habitant.es. Un montage avec l’établissement public foncier de&#xA;Bretagne est possible pour ne pas impacter les finances communales, voire procurer à la&#xA;municipalité, à terme, un revenu.&lt;/p&gt;</description>
+      <guid>//localhost:1313/pages/programme/avenir-commune/</guid>
+      <description>&lt;p&gt;🏛️ L&amp;rsquo;Avenir de notre Commune : Agir avec Responsabilité&lt;/p&gt;&#xA;&lt;p&gt;💰 Une gestion budgétaire rigoureuse Nous veillerons à la maîtrise du budget : notre commune doit investir dans son avenir tout en conservant son équilibre financier.&lt;/p&gt;&#xA;&lt;p&gt;🏫 École : un projet à réexaminer ensemble Le projet de rénovation de l’école doit être réexaminé en tenant compte de l’avis de la population. Son coût sera adapté aux subventions disponibles et aux capacités de la commune. Nous étudierons aussi la réhabilitation du logement communal 🏠 pour le remettre en location.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3 . DÉPLACEMENTS ET INFRASTRUCTURES HEÑCHOÙ</title>
-      <link>/pages/info3/info3/</link>
+      <link>//localhost:1313/pages/programme/deplacements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info3/info3/</guid>
-      <description>&lt;p&gt;Certaines routes communales sont en mauvais état. Nous mettrons en œuvre un « Plan&#xA;d’action voirie » : état des lieux de toutes les routes de la commune, identification des&#xA;zones d’action prioritaires, effort financier pour leur remise en état.&#xA;Nous veillerons à mettre en place les équipements nécessaires à la sécurité et au confort&#xA;de tous les usagers (voitures, piétons, vélos, véhicules professionnels) : signalétique,&#xA;miroirs de carrefour, éclairage public, abribus…&#xA;Nous chercherons à améliorer la desserte en transports en commun, par exemple en&#xA;étudiant l’intérêt d’arrêts de bus dans les bourgs de Kergrist-Moëlou et de Saint-Lubin, et&#xA;d’un ramassage scolaire pour l’école.&lt;/p&gt;</description>
+      <guid>//localhost:1313/pages/programme/deplacements/</guid>
+      <description>&lt;p&gt;🛣️ Infrastructures &amp;amp; Voirie : Pour des routes sûres et partagées&lt;/p&gt;&#xA;&lt;p&gt;🚜 Un « Plan d&amp;rsquo;action voirie » ambitieux&#xA;Certaines routes communales sont en mauvais état. Nous lancerons dès le début du mandat :&lt;/p&gt;&#xA;&lt;p&gt;📉 Un état des lieux complet de toutes les routes de la commune.&lt;/p&gt;&#xA;&lt;p&gt;📍 L&amp;rsquo;identification des zones prioritaires (celles qui présentent un danger ou une dégradation avancée).&lt;/p&gt;&#xA;&lt;p&gt;💰 Un effort financier soutenu pour leur remise en état durable.&lt;/p&gt;</description>
     </item>
     <item>
       <title>4. AGRICULTURE et RURALITÉ // LABOUR-DOUAR / BEVAÑ WAR MAEZ</title>
-      <link>/pages/info4/info4/</link>
+      <link>//localhost:1313/pages/programme/agriculture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info4/info4/</guid>
-      <description>&lt;p&gt;Nous défendrons l’identité rurale de notre commune et œuvrerons à la cohabitation des&#xA;activités qui lui sont liées, comme l’agriculture, la chasse et la randonnée.L’installation et la transmission des exploitations agricoles sont une de nos&#xA;préoccupations majeures. Nous investirons toutes les possibilités dont dispose la&#xA;commune pour œuvrer en ce sens.&#xA;Nous ferons en sorte de protéger les terres agricoles, afin qu’elles ne disparaissent&#xA;pas au profit d’autres usages économiques.&#xA;Nous ne sommes pas en faveur de nouvelles implantations d’éoliennes à Kergrist-&#xA;Moëlou&lt;/p&gt;</description>
+      <guid>//localhost:1313/pages/programme/agriculture/</guid>
+      <description>&lt;p&gt;🚜 Identité Rurale : Cultivons l&amp;rsquo;Équilibre et l&amp;rsquo;Avenir&lt;/p&gt;&#xA;&lt;p&gt;🌿 Défendre notre identité et le partage de la nature&#xA;Nous défendrons l’identité rurale de notre commune. Notre priorité : la cohabitation harmonieuse des activités qui font battre le cœur de Kergrist-Moëlou :&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;🚜 L&#39;agriculture nourricière.&#xD;&#xA;&#xD;&#xA;🦆 La chasse traditionnelle.&#xD;&#xA;&#xD;&#xA;🥾 La randonnée et le plaisir de nos chemins.&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;👨‍🌾 Transmission et installation : une priorité majeure&#xA;L’avenir passe par le renouvellement des générations. Nous investirons tous les leviers de la commune pour :&lt;/p&gt;</description>
     </item>
     <item>
       <title>5. VIE ASSOCIATIVE ET CULTURELLE // BUHEZ AR C’HEVREDIGEJOÙ / KULTUR</title>
-      <link>/pages/info5/info5/</link>
+      <link>//localhost:1313/pages/programme/vie-associative/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info5/info5/</guid>
-      <description>&lt;p&gt;Notre équipe s’engage à appuyer les associations locales en étant attentive à leurs&#xA;besoins, financiers ou pratiques. Nous faciliterons la mise à disposition des&#xA;équipements communaux (salle des fêtes, salles de réunions, tiers-lieu de la mairie,&#xA;imprimante&amp;hellip;). Nous proposerons chaque année une rencontre avec toutes les&#xA;associations pour favoriser les synergies.&#xA;Nous assurerons l’entretien de la salle des fêtes et veillerons à optimiser son&#xA;utilisation (locations, évènements culturels et artistiques) afin de financer les travaux.&#xA;Nous valoriserons le patrimoine culturel et naturel de la commune, comme notre&#xA;église et nos chapelles, ainsi que la langue bretonne, notamment par la mise en place&#xA;d’un circuit de découverte.&lt;/p&gt;</description>
+      <guid>//localhost:1313/pages/programme/vie-associative/</guid>
+      <description>&lt;p&gt;🎨 Vie Associative &amp;amp; Culture : Faire battre le cœur du bourg&lt;/p&gt;&#xA;&lt;p&gt;🤝 Un soutien concret à nos associations&#xA;Notre équipe s’engage à appuyer les associations locales en étant attentive à leurs besoins (financiers 💰 ou pratiques 🛠️) :&lt;/p&gt;&#xA;&lt;p&gt;🔑 Mise à disposition simplifiée des équipements : salle des fêtes, salles de réunions, tiers-lieu de la mairie, accès à l&amp;rsquo;imprimante&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;📅 Une rencontre annuelle avec toutes les associations pour favoriser les synergies et les projets communs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>6. SOLIDARITÉS // TUD O HARPAÑ AN EIL DEUS EGILE</title>
-      <link>/pages/info6/info6/</link>
+      <link>//localhost:1313/pages/programme/solidarites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info6/info6/</guid>
-      <description>&lt;p&gt;Création d’une réserve citoyenne destinée à organiser l’entraide, notamment face aux&#xA;situations de crise (tempêtes, incendies, canicules…).&#xA;Nous favoriserons les liens et évènements intergénérationnels et proposerons aux&#xA;seniors et aux personnes isolées d’avoir une personne référente au sein de la réserve&#xA;citoyenne afin de les aider, par exemple pour les démarches administratives et l’accès&#xA;à leurs droits…&#xA;Nous étudierons la mise en place du dispositif « Argent de poche » proposé par la&#xA;CAF, qui permet aux jeunes de 14-18 ans de découvrir le monde professionnel et de&#xA;participer à la vie de leur commune à travers des petits chantiers rémunérés.&lt;/p&gt;</description>
+      <guid>//localhost:1313/pages/programme/solidarites/</guid>
+      <description>&lt;p&gt;🤝 Solidarités : L&amp;rsquo;entraide au cœur de notre action&lt;/p&gt;&#xA;&lt;p&gt;🛡️ Une « Réserve Citoyenne » pour ne laisser personne seul&#xA;Nous créerons une réserve citoyenne pour organiser la solidarité concrète, particulièrement face aux coups durs :&lt;/p&gt;&#xA;&lt;p&gt;⛈️ Situations de crise : Tempêtes, incendies, canicules&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;🆘 Entraide de proximité : Un réseau de bénévoles prêts à agir pour la commune.&lt;/p&gt;&#xA;&lt;p&gt;👵 Accompagner nos seniors et rompre l&amp;rsquo;isolement&#xA;Parce que le lien entre les générations est essentiel, nous favoriserons les événements intergénérationnels :&lt;/p&gt;</description>
     </item>
     <item>
       <title>7. EQUIPE</title>
-      <link>/pages/info7/info7/</link>
+      <link>//localhost:1313/pages/programme/la-liste/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info7/info7/</guid>
-      <description>&lt;p&gt;Une équipe de 17 citoyennes et citoyens engagés, représentatifs de la diversité et des générations de Kergrist-Moëlou.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Koulm STEPHAN&#xA;&#xA;Anne-Sophie OUDIN&#xA;&#xA;Steven GÉRARD&#xA;&#xA;Anna CORBEL&#xA;&#xA;Roland LE CAM&#xA;&#xA;Inès LÉRAUD&#xA;&#xA;Serge BÉGOT&#xA;&#xA;Sabrina COL&#xA;&#xA;Léandre MANDARD&#xA;&#xA;Alice STERNBERG&#xA;&#xA;Jean-Nicolas BÉASSE&#xA;&#xA;Adriane BUCKULCIK&#xA;&#xA;Alexis ROCHE&#xA;&#xA;Julie POISSON&#xA;&#xA;Franck LE BOEDEC&#xA;&#xA;Carine BONNET&#xA;&#xA;Jérôme LETORT&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <guid>//localhost:1313/pages/programme/la-liste/</guid>
+      <description>&lt;p&gt;Une équipe de 17 citoyennes et citoyens engagés, représentatifs de la diversité et des générations de Kergrist-Moëlou.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Koulm STEPHAN&#xD;&#xA;&#xD;&#xA;Anne-Sophie OUDIN&#xD;&#xA;&#xD;&#xA;Steven GÉRARD&#xD;&#xA;&#xD;&#xA;Anna CORBEL&#xD;&#xA;&#xD;&#xA;Roland LE CAM&#xD;&#xA;&#xD;&#xA;Inès LÉRAUD&#xD;&#xA;&#xD;&#xA;Serge BÉGOT&#xD;&#xA;&#xD;&#xA;Sabrina COL&#xD;&#xA;&#xD;&#xA;Léandre MANDARD&#xD;&#xA;&#xD;&#xA;Alice STERNBERG&#xD;&#xA;&#xD;&#xA;Jean-Nicolas BÉASSE&#xD;&#xA;&#xD;&#xA;Adriane BUCKULCIK&#xD;&#xA;&#xD;&#xA;Alexis ROCHE&#xD;&#xA;&#xD;&#xA;Julie POISSON&#xD;&#xA;&#xD;&#xA;Franck LE BOEDEC&#xD;&#xA;&#xD;&#xA;Carine BONNET&#xD;&#xA;&#xD;&#xA;Jérôme LETORT&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;👥 Une équipe engagée pour Kergrist-Moëlou&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Notre liste rassemble des citoyennes et citoyens de toutes générations, issus de parcours professionnels variés et complémentaires. Agriculteurs, retraités, actifs ou étudiants, nous partageons une même ambition : agir concrètement pour l&amp;rsquo;intérêt général.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Document Complet</title>
-      <link>/pages/info8/info8/</link>
+      <link>//localhost:1313/pages/programme/programme-pdf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/pages/info8/info8/</guid>
+      <guid>//localhost:1313/pages/programme/programme-pdf/</guid>
       <description>&lt;p&gt;Retrouvez l&amp;rsquo;intégralité de nos propositions&lt;/p&gt;&#xA;&lt;p&gt;Vous souhaitez approfondir nos projets pour la voirie, l&amp;rsquo;école, ou la vie démocratique ?&lt;/p&gt;&#xA;&lt;p&gt;Téléchargez notre programme détaillé au format PDF si dessous pour le consulter à tête reposée ou l&amp;rsquo;imprimer.&lt;/p&gt;&#xA;&lt;p&gt;Une question ? Une suggestion ?&lt;/p&gt;&#xA;&lt;p&gt;Contactez-nous par e-mail : &lt;a href=&#34;mailto:avenir.kergrist-moelou@protonmail.com&#34;&gt;avenir.kergrist-moelou@protonmail.com&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
