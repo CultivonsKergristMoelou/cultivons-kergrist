@@ -194,15 +194,15 @@ body {
 
 /* --- RÉGLAGES SPÉCIFIQUES POUR MOBILE --- */
 @media (max-width: 768px) {
-  .intro-texte p {
-    font-size: 1.1rem !important; /* Texte d'intro plus gros sur tel */
-  }
-
-  .content {
-    font-size: 1.15rem !important; /* Texte des sections plus gros sur tel */
-  }
-
-  h1 {
-    font-size: 1.6rem !important; /* Titres bien visibles sans déborder */
-  }
+    .intro-texte p {
+        font-size: 1.1rem !important; /* Texte d'intro plus gros sur tel */
+    }
+    
+    .content {
+        font-size: 1.15rem !important; /* Texte des sections plus gros sur tel */
+    }
+    
+    h1 {
+        font-size: 1.6rem !important; /* Titres bien visibles sans déborder */
+    }
 }

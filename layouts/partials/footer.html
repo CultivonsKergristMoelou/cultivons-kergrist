@@ -8,6 +8,7 @@
         <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
       </p>
 
+      
       <p>
         Suivez-nous
         <br />
@@ -16,18 +17,18 @@
         </a>
       </p>
       <p>
-        Notre programme complet
-        <br />
-        <a href="/documents/programme-cultivons-notre-avenir.pdf" target="_blank" class="text-white text-decoration-none">
-          <i class="bi bi-file-earmark-pdf"></i> Télécharger le PDF
-        </a>
-      </p>
+  Notre programme complet
+  <br />
+  <a href="/documents/programme-cultivons-notre-avenir.pdf" target="_blank" class="text-white text-decoration-none">
+    <i class="bi bi-file-earmark-pdf"></i> Télécharger le PDF
+  </a>
+    </p>
     </div>
 
     <div class="col-md-6 col-lg-4">
       <p class="text-uppercase fw-bold">Navigation</p>
       {{ range site.RegularPages }}
-      <div>
+       <div>
         <a href="{{ .RelPermalink }}" class="text-white text-decoration-none">{{ .LinkTitle }}</a>
       </div>
       {{ end }}
