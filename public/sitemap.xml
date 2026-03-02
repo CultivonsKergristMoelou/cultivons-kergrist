@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/pages/</loc>
+    <loc>//localhost:1313/pages/</loc>
   </url><url>
-    <loc>/pages/info1/info1/</loc>
+    <loc>//localhost:1313/pages/programme/vie-democratique/</loc>
   </url><url>
-    <loc>/pages/info2/info2/</loc>
+    <loc>//localhost:1313/pages/programme/avenir-commune/</loc>
   </url><url>
-    <loc>/pages/info3/info3/</loc>
+    <loc>//localhost:1313/pages/programme/deplacements/</loc>
   </url><url>
-    <loc>/pages/info4/info4/</loc>
+    <loc>//localhost:1313/pages/programme/agriculture/</loc>
   </url><url>
-    <loc>/pages/info5/info5/</loc>
+    <loc>//localhost:1313/pages/programme/vie-associative/</loc>
   </url><url>
-    <loc>/pages/info6/info6/</loc>
+    <loc>//localhost:1313/pages/programme/solidarites/</loc>
   </url><url>
-    <loc>/pages/info7/info7/</loc>
+    <loc>//localhost:1313/pages/programme/la-liste/</loc>
   </url><url>
-    <loc>/pages/info8/info8/</loc>
+    <loc>//localhost:1313/pages/programme/programme-pdf/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
