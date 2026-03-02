@@ -1,37 +1,72 @@
 <div class="container py-4">
   <div class="row">
-    <div class="col-md-6 col-lg-4">
-      <p class="text-uppercase fw-bold">{{ site.Title }}</p>
-      <p>
+    <div class="col-md-4 mb-3">
+      <h5>
         {{ i18n "contact" | default "Contact" }}
-        <br />
+      </h5>
+      <p>
         <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
       </p>
+<<<<<<< Updated upstream
 
       
       <p>
+=======
+      <h5>
+>>>>>>> Stashed changes
         Suivez-nous
-        <br />
+      </h5>
+      <p>
         <a href="https://www.facebook.com/1003567892841323" target="_blank" class="text-white">
-          <i class="bi bi-facebook"></i> Facebook
+          <i class="bi bi-facebook"></i> Cultivons notre avenir à Kergrist-Moëlou
         </a>
       </p>
+      <h5>
+        Téléchargement
+      </h5>
       <p>
+<<<<<<< Updated upstream
   Notre programme complet
   <br />
   <a href="/documents/programme-cultivons-notre-avenir.pdf" target="_blank" class="text-white text-decoration-none">
     <i class="bi bi-file-earmark-pdf"></i> Télécharger le PDF
   </a>
     </p>
+=======
+        <a href="/documents/programme-cultivons-notre-avenir.pdf" target="_blank" class="text-white text-decoration-none">
+          <i class="bi bi-file-earmark-pdf"></i> Le programme complet en PDF
+        </a>
+      </p>
+>>>>>>> Stashed changes
     </div>
 
-    <div class="col-md-6 col-lg-4">
-      <p class="text-uppercase fw-bold">Navigation</p>
+    <div class="col-md-4 mb-3">
+      <h5>Navigation</h5>
       {{ range site.RegularPages }}
+<<<<<<< Updated upstream
        <div>
         <a href="{{ .RelPermalink }}" class="text-white text-decoration-none">{{ .LinkTitle }}</a>
+=======
+      <div>
+        <p>
+          <a href="{{ .RelPermalink }}" class="text-white text-decoration-none">{{ .LinkTitle }}</a>
+        </p>
+>>>>>>> Stashed changes
       </div>
       {{ end }}
+    </div>
+
+    <div class="col-md-4 mb-3">
+      <h5>Cultivons Kergrist</h5>
+      <p>
+        Une liste citoyenne pour l’avenir de <strong>Kergrist-Moëlou</strong>.
+      </p>
+    </div>
+
+    <div class="text-center py-3 border-top border-light small">
+      © {{ now.Year }} Cultivons Kergrist – Tous droits réservés <br />
+      Site réalisé avec Hugo – Hébergement libre
+      </p>
     </div>
   </div>
 </div>
