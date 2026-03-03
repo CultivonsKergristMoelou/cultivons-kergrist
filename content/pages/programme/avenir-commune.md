@@ -1,8 +1,9 @@
 ---
-title: "2. AVENIR DE LA COMMUNE // AR GUMUN A-BENN ARC’HOAZH"
-
+title: "Avenir de la commune // Ar Gumun A-Benn Arc’Hoazh"
 weight: 20
+image: "/images/commune.png"
 ---
+
 🏛️ L'Avenir de notre Commune : Agir avec Responsabilité
 
 💰 Une gestion budgétaire rigoureuse Nous veillerons à la maîtrise du budget : notre commune doit investir dans son avenir tout en conservant son équilibre financier.

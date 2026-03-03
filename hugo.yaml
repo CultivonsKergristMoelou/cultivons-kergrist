@@ -8,20 +8,22 @@ module:
     min: 0.116.0
 
 params:
-  email: 'avenir.kergrist-moelou@protonmail.com'
-  favicon: "favicon.ico"
+  email: "avenir.kergrist-moelou@protonmail.com"
+  favicon: "favicon.png"
   logo: "logocultivonkergrist.png"
   banner: "banner.jpg"
-  
+  iconColor: "#2c5e2e"
+  iconBgColor: "#f7e018"
+
   # AJOUT : Dit au thème d'aspirer les fichiers du dossier 'content/section'
-  mainSections: ["pages"] 
+  mainSections: ["pages"]
 
   instagram:
     enabled: false
-    tokenURL: ''
-    url: ''
+    tokenURL: ""
+    url: ""
 
   style:
-    brandColor1: '#2c5e2e' # Ton vert foncé
-    brandColor2: '#f7e018' # Ton jaune
-    brandColor3: '#ffffff'
+    brandColor1: "#2c5e2e" # Ton vert foncé
+    brandColor2: "#f7e018" # Ton jaune
+    brandColor3: "#ffffff"

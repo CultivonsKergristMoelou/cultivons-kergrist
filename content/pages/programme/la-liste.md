@@ -1,6 +1,5 @@
 ---
-title: "7. EQUIPE"
-
+title: "La liste"
 
 weight: 70
 ---

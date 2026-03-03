@@ -1,7 +1,7 @@
 ---
-title: "3 . DÉPLACEMENTS ET INFRASTRUCTURES HEÑCHOÙ"
-
+title: "Déplacements et Infrastructures // Heñchoù"
 weight: 30
+image: "/images/infrastructures.png"
 ---
 
 🛣️ Infrastructures & Voirie : Pour des routes sûres et partagées

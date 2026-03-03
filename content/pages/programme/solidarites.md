@@ -1,7 +1,7 @@
 ---
-title: "6. SOLIDARITÉS // TUD O HARPAÑ AN EIL DEUS EGILE"
-
+title: "Solidarités // Tud O Harpañ An Eil Deus Egile"
 weight: 60
+image: "/images/solidarites.png"
 ---
 
 🤝 Solidarités : L'entraide au cœur de notre action

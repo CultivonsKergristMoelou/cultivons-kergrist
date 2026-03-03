@@ -1,6 +1,7 @@
 ---
-title: "1. VIE DÉMOCRATIQUE // DEMOKRATELEZH O VEVAÑ"
+title: "Vie démocratique // Demokratelzh O Vevañ"
 weight: 10
+image: "/images/democratie.png"
 ---
 
 🗳️ Vie Démocratique

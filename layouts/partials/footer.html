@@ -1,39 +1,35 @@
 <div class="container py-4">
   <div class="row">
     <div class="col-md-4 mb-3">
-      <h5>
-        {{ i18n "contact" | default "Contact" }}
-      </h5>
-      <p>
-        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
-      </p>
-
-
-      <p>
-        Suivez-nous
+      <div class="footer-div">
+        <h5>
+          {{ i18n "contact" | default "Contact" }}
         </h5>
-      <p>
+        <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
+      </div>
+      <div class="footer-div">
+        <h5>
+          Suivez-nous
+        </h5>
         <a href="https://www.facebook.com/1003567892841323" target="_blank" class="text-white">
           <i class="bi bi-facebook"></i> Cultivons notre avenir à Kergrist-Moëlou
         </a>
-      </p>
-      <h5>
-        Téléchargement
-      </h5>
-      <p>
+      </div>
+      <div class="footer-div">
+        <h5>
+          Téléchargement
+        </h5>
         <a href="/documents/programme-cultivons-notre-avenir.pdf" target="_blank" class="text-white text-decoration-none">
           <i class="bi bi-file-earmark-pdf"></i> Le programme complet en PDF
         </a>
-      </p>
+      </div>
     </div>
 
     <div class="col-md-4 mb-3">
       <h5>Navigation</h5>
       {{ range site.RegularPages }}
       <div>
-        <p>
-          <a href="{{ .RelPermalink }}" class="text-white text-decoration-none">{{ .LinkTitle }}</a>
-        </p>
+        <a href="{{ .RelPermalink }}" class="text-white text-decoration-none"> - {{ .LinkTitle }}</a>
       </div>
       {{ end }}
     </div>

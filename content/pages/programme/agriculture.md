@@ -1,7 +1,7 @@
 ---
-title: "4. AGRICULTURE et RURALITÉ // LABOUR-DOUAR / BEVAÑ WAR MAEZ"
+title: "Agriculture et Ruralité // Labour-Douar / Bevañ War Maez"
 weight: 40
-icon: "flower1"
+image: "/images/agriculture.png"
 ---
 
 🚜 Identité Rurale : Cultivons l'Équilibre et l'Avenir

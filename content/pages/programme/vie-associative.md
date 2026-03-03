@@ -1,7 +1,7 @@
 ---
-title: "5. VIE ASSOCIATIVE ET CULTURELLE // BUHEZ AR C’HEVREDIGEJOÙ / KULTUR"
-
+title: "Vie associative et culturelle // Buhez Ar C’Hevredigejoù / Kultur"
 weight: 50
+image: "/images/associations.png"
 ---
 
 🎨 Vie Associative & Culture : Faire battre le cœur du bourg
