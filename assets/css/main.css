@@ -1,11 +1,13 @@
-#menu {
-  position: fixed;
+body {
+  background-color: #f9f9f9; /* Fond légèrement grisé pour faire ressortir les blocs blancs */
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem; /* On augmente la base */
 }
 
-#banner img {
-  max-height: 484px;
-  width: auto;
-  margin: auto;
+/*HEADER*/
+#menu {
+  position: fixed;
 }
 
 #menu img {
@@ -24,12 +26,25 @@
   background-color: #2c5e2e;
 }
 
-#sideMenu a {
+#sideMenu li a {
   color: #ffffff;
   text-decoration: none;
 }
 
-#sideMenu a:hover {
+#sideMenu li::marker {
+  color: #ffffff;
+}
+
+.offcanvas-body ul {
+  list-style-type: disc; /* rond noir */
+  padding-left: 20px; /* espace pour la puce */
+}
+
+#sideMenu li a:hover {
+  color: #f7e018 !important;
+}
+
+#sideMenu li:hover::marker {
   color: #f7e018 !important;
 }
 
@@ -46,14 +61,8 @@
   font-size: 8rem;
 }
 
-#instafeed img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
 .content {
-  margin-top: 20rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -61,17 +70,27 @@
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
-
+/*FOOTER*/
 footer {
   margin-top: 3rem;
   padding: 3rem 0;
   color: #ffffff;
   background-color: #2c5e2e;
 }
+footer h2 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+footer p {
+  color: #ffffff;
+  font-size: 0.875rem;
+}
 
 footer a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 0.875rem;
 }
 
 footer .footer-div {
@@ -85,61 +104,96 @@ footer .footer-div {
     border-bottom: thin solid #2c5e2e;
   }
 
-  .content {
-    margin-top: 5rem;
-  }
-
   .big-content {
     margin-top: 2rem;
   }
 }
-/* Pour les titres des sections (info1, info2...) */
-section h2,
-.section h2,
-h2.display-5 {
-  color: #2c5e2e !important;
-  font-family: sans-serif;
-  margin-top: 20px;
-}
 
-/* Pour le texte "Logo" en bleu qui refuse de partir = il sert à la lisibilité des images par les robots ;) */
-.navbar-brand,
-#menu a {
-  color: #2c5e2e !important; /* On cache le texte bleu si l'image ne vient pas */
-}
-/* --- AMÉLIORATIONS VISUELLES GLOBALES --- */
-
-/* Fond légèrement grisé pour faire ressortir les blocs blancs */
-body {
-  background-color: #f9f9f9;
-  color: #333;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/* --- LE TEXTE D'INTRO (Qui sommes-nous) --- */
-/* (Code à mettre si tu as ajouté le texte dans layouts/index.html) */
-.intro-texte {
-  padding: 60px 0;
-  background-color: #ffffff;
-  border-bottom: 3px solid #f7e018; /* Rappel jaune */
-}
-
-.intro-texte h1 {
-  color: #2c5e2e; /* Ton vert forêt */
+/*TITRES*/
+h1 {
+  color: #2c5e2e;
   font-weight: 800;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 1px;
   margin-bottom: 25px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+section h2,
+.section h2,
+h2.display-5,
+h2 {
+  color: #2c5e2e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #2c5e2e;
+}
+
+h4 {
+  margin-left: 40px;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/*BOUTON SUIVANT*/
+.btn-suivant {
+  display: flex;
+  justify-content: center;
+  background-color: #2c5e2e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  margin: 50px;
+}
+
+.btn-suivant:hover {
+  background-color: #f7e018;
+}
+
+/* --- AMÉLIORATIONS VISUELLES GLOBALES --- */
+
+/* --- PAGE ACCUEIL --- */
+.intro-texte {
+  padding: 60px 15px;
+  background-color: #ffffff;
+  border: 3px solid #f7e018; /* Encadré jaune */
+  border-radius: 15px;
+  text-align: center;
 }
 
 .intro-texte p {
-  font-size: 1.25rem;
-  line-height: 1.8;
-  color: #444;
-  max-width: 800px;
-  margin: 0 auto;
+  text-align: center;
 }
 
+#banner img {
+  max-height: 484px;
+  width: auto;
+  margin: auto;
+}
 /* --- LA GRILLE DES 6 POINTS (Les Boutons) --- */
 .section-image-wrapper {
   width: 100%;
@@ -191,18 +245,7 @@ body {
   color: inherit;
 }
 /* --- AMÉLIORATION DE LA LISIBILITÉ --- */
-
-/* Texte général du site */
-body {
-  font-size: 1.1rem; /* On augmente la base */
-  line-height: 1.6; /* On aère les lignes pour que ce soit moins dense */
-}
-
 /* Texte spécifique aux pages (info1, info2...) */
-.content {
-  font-size: 1.2rem; /* Texte bien lisible pour le programme */
-  padding: 20px 0;
-}
 
 /* --- RÉGLAGES SPÉCIFIQUES POUR MOBILE --- */
 @media (max-width: 768px) {

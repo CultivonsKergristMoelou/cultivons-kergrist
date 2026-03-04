@@ -3,17 +3,15 @@
 {{ partial "head-instagram-feed.html" . }}
 {{ end }}
 {{ define "main" }}
-<div class="container py-4 text-center">
+<div class="container py-4">
   <div class="row justify-content-center">
     <div class="col-md-10">
-      <h1 style="color: #2c5e2e; font-weight: bold; margin-bottom: 20px;">
+      <h1>
         CULTIVONS NOTRE AVENIR
       </h1>
-      <p class="fs-5" style="color: #1a1a1a; line-height: 1.6;">
-        Notre liste rassemble plusieurs générations et des compétences complémentaires.
-        Nous partageons une même volonté : agir concrètement pour l'ensemble des habitant.es
-        de manière constructive et responsable pour une commune accueillante et solidaire.
-      </p>
+      <div class="fs-5 intro-texte">
+        {{ .Content }}
+      </div>
     </div>
   </div>
 </div>

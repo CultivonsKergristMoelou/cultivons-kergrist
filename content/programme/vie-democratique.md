@@ -1,29 +1,29 @@
 ---
 title: "Vie démocratique // Demokratelzh O Vevañ"
-weight: 10
+weight: 1
 image: "/images/democratie.png"
 ---
 
-🗳️ Vie Démocratique
+## 🗳️ Vie Démocratique
 
 Instaurer des réunions publiques régulières et une transparence totale avec le journal Petra 'zo.
 
-🏫 Avenir du Bourg
+## 🏫 Avenir du Bourg
 
 Maintien de l'école, réhabilitation de la Maison Bonhomme et soutien actif à nos commerces locaux.
 
-🛣️ Infrastructures & Voirie
+## 🛣️ Infrastructures & Voirie
 
 Lancement d'un plan pluriannuel de rénovation de nos routes et sécurisation du bourg.
 
-🚜 Agriculture & Ruralité
+## 🚜 Agriculture & Ruralité
 
 Protection des terres agricoles, préservation du bocage et défense de l'identité rurale.
 
-🤝 Solidarités
+## 🤝 Solidarités
 
 Création d'une réserve citoyenne pour l'entraide et dispositif "Argent de poche" pour les jeunes.
 
-🎨 Vie Associative & Culture
+## 🎨 Vie Associative & Culture
 
 Soutien logistique aux associations et valorisation de la langue bretonne dans la commune.

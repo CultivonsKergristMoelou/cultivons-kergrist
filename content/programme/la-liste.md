@@ -1,7 +1,6 @@
 ---
 title: "La liste"
-
-weight: 70
+weight: 7
 ---
 
 Une équipe de 17 citoyennes et citoyens engagés, représentatifs de la diversité et des générations de Kergrist-Moëlou.
@@ -40,8 +39,7 @@ Une équipe de 17 citoyennes et citoyens engagés, représentatifs de la diversi
 
     Jérôme LETORT
 
-
-    👥 Une équipe engagée pour Kergrist-Moëlou
+## 👥 Une équipe engagée pour Kergrist-Moëlou
 
 Notre liste rassemble des citoyennes et citoyens de toutes générations, issus de parcours professionnels variés et complémentaires. Agriculteurs, retraités, actifs ou étudiants, nous partageons une même ambition : agir concrètement pour l'intérêt général.
 

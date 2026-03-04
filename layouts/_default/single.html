@@ -9,6 +9,20 @@
       <h1 class="mb-4" style="color: #2c5e2e;">{{ .Title }}</h1>
       <div class="content fs-5">
         {{ .Content }}
+        {{ $pages := sort site.RegularPages "Weight" "asc" }}
+        {{ $current := . }}
+        {{ range $index, $p := $pages }}
+        {{ if eq $p.RelPermalink $current.RelPermalink }}
+        {{ $nextIndex := add $index 1 }}
+        {{ if lt $nextIndex (len $pages) }}
+        <div class="bouton-suivant-wrapper">
+          <a href="{{ (index $pages $nextIndex).RelPermalink }}" class="btn-suivant">
+            Suivant → {{ (index $pages $nextIndex).Title }}
+          </a>
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
