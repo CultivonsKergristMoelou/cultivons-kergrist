@@ -1,7 +1,7 @@
 ---
 title: "Solidarités // Tud O Harpañ An Eil Deus Egile"
 weight: 6
-image: "/images/solidarites.png"
+image: "/images/solidarites.webp"
 ---
 
 ## 🤝 Solidarités : L'entraide au cœur de notre action

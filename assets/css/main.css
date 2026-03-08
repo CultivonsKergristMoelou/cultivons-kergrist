@@ -54,7 +54,7 @@ body {
 
 .section a {
   text-decoration: none;
-  color: black;
+  color: #333;
 }
 
 .section .icon {
@@ -173,8 +173,6 @@ p {
   background-color: #f7e018;
 }
 
-/* --- AMÉLIORATIONS VISUELLES GLOBALES --- */
-
 /* --- PAGE ACCUEIL --- */
 .intro-texte {
   padding: 60px 15px;
@@ -205,14 +203,18 @@ p {
   height: auto;
   display: block;
 }
+
+.section h3 {
+  color: #333;
+}
 /* On transforme les blocs blancs en cartes cliquables et élégantes */
 .section-item {
   background: #ffffff;
   border: 1px solid #eee;
-  border-radius: 10px; /* Coins arrondis */
+  border-radius: 10px;
   padding: 30px;
-  transition: all 0.3s ease; /* Animation fluide au survol */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Ombre légère */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 /* Effet au survol : la carte se lève et l'ombre s'accentue */
@@ -222,31 +224,31 @@ p {
   border-color: #2c5e2e;
 }
 
-/* Icônes plus grandes et colorées */
-.section-icon i {
+/* Icônes plus grandes et colorées  */
+/*.section-icon i {
   font-size: 3rem;
-  color: #f7e018; /* Ton jaune */
+  color: #f7e018;
   margin-bottom: 20px;
   display: block;
 }
+*/
 
-/* Titres des sections en vert */
+/* Titres des sections 
 .section-title {
   color: #2c5e2e;
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 15px;
-}
+}*/
 
 /* Lien pour rendre toute la carte cliquable */
-.section-link {
+/*.section-link {
   text-decoration: none;
   color: inherit;
-}
-/* --- AMÉLIORATION DE LA LISIBILITÉ --- */
-/* Texte spécifique aux pages (info1, info2...) */
+}*/
 
-/* --- RÉGLAGES SPÉCIFIQUES POUR MOBILE --- */
+/* ---LISIBILITÉ --- */
+/* --- MOBILE --- */
 @media (max-width: 768px) {
   .intro-texte p {
     font-size: 1.1rem !important; /* Texte d'intro plus gros sur tel */
@@ -258,5 +260,156 @@ p {
 
   h1 {
     font-size: 1.6rem !important; /* Titres bien visibles sans déborder */
+  }
+}
+
+/*******LISTE********/
+.liste-candidats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  grid-auto-flow: dense;
+}
+
+/* Chaque bloc de candidat */
+.bloc-click {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.bloc-click:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(44, 94, 46, 0.15);
+}
+
+.bloc-click::after {
+  content: "voir";
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background: #2c5e2e;
+  color: white;
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  border-radius: 4px;
+}
+
+.bloc-click img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: opacity 0.2s ease;
+}
+
+.bloc-click:hover img {
+  opacity: 0.85;
+}
+
+.bloc-click h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #2c5e2e;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/*********POPUP*********/
+/*POP UP OVERLAY */
+.popup {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(3px);
+}
+
+/*POP UP BOX */
+@keyframes popupFade {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.popup-box {
+  background: #2c5e2e;
+  border-radius: 10px;
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  padding: 1.5rem;
+  overflow-y: auto;
+  animation: popupFade 0.2s ease;
+  box-shadow: 0 25px 60px rgba(44, 94, 46, 0.35);
+}
+
+.popup-hidden {
+  display: none;
+}
+
+/* POPUP HEADER */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.popup-title {
+  color: #f7e018;
+  margin: 0;
+}
+
+.popup-close {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* POPUP CONTENU */
+.popup-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.popup-img {
+  width: 220px;
+  border-radius: 6px;
+}
+
+.popup-text {
+  color: white;
+  line-height: 1.6;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .bloc-click:active {
+    transform: scale(0.97);
+  }
+
+  .bloc-click::after {
+    opacity: 1;
+  }
+
+  .popup-content {
+    flex-direction: column;
+  }
+  .popup-img {
+    width: 100%;
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: "Avenir de la commune // Ar Gumun A-Benn Arc’Hoazh"
 weight: 2
-image: "/images/commune.png"
+image: "/images/commune.webp"
 ---
 
 ## 🏛️ L'Avenir de notre Commune : Agir avec Responsabilité

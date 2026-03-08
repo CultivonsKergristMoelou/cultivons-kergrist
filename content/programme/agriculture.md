@@ -1,7 +1,7 @@
 ---
 title: "Agriculture et Ruralité // Labour-Douar / Bevañ War Maez"
 weight: 4
-image: "/images/agriculture.png"
+image: "/images/agriculture.webp"
 ---
 
 ## 🚜 Identité rurale : Cultivons l'équilibre et l'avenir

@@ -1,0 +1,31 @@
+    <div class="liste-candidats">
+        {{ $candidats := .Site.Data.candidats }}
+
+        {{ range $c := $candidats }}
+
+        <div class="bloc-click"
+            data-title="{{ $c.nom }}"
+            data-text="{{ $c.bio }}"
+            data-img="{{ $c.photo }}"
+            data-key="{{ $c.id }}">
+
+            <img src="{{ $c.photo }}" alt="{{ $c.nom }}">
+            <h2>{{ $c.nom }}</h2>
+        </div>
+
+
+        {{ end }}
+    </div>
+    <!-- Popup -->
+    <div class="popup popup-hidden">
+        <div class="popup-box">
+            <div class="popup-header">
+                <h2 class="popup-title"></h2>
+                <span class="popup-close">&times;</span>
+            </div>
+            <div class="popup-content">
+                <p class="popup-text"></p>
+                <img class="popup-img" src="" alt="">
+            </div>
+        </div>
+    </div>

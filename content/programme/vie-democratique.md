@@ -1,7 +1,7 @@
 ---
 title: "Vie démocratique // Demokratelzh O Vevañ"
 weight: 1
-image: "/images/democratie.png"
+image: "/images/democratie.webp"
 ---
 
 ## 🗳️ Vie Démocratique
