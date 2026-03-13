@@ -583,6 +583,7 @@ p {
 
 #campaignVideo {
   width: 60%;
+  height: auto;
   box-shadow: 0 5px 15px rgba(44, 94, 46, 0.3);
   border-radius: 10px;
   transition: all 0.3s ease;
@@ -590,11 +591,6 @@ p {
   margin: auto;
 }
 @media (max-width: 1024px) {
-  #campaignVideo {
-    width: 90%;
-  }
-}
-@media (max-width: 600px) {
   #campaignVideo {
     width: 90%;
   }
