@@ -1,6 +1,7 @@
 ---
 title: "Programme et contact"
 weight: 8
+image: "/images/campagne.webp"
 ---
 
 ## Retrouvez l'intégralité de nos propositions

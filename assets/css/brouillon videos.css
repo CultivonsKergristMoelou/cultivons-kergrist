@@ -1,0 +1,42 @@
+/* --- carousel -- */
+/* 228*/
+
+/*POPUP VIDEO*/
+.video-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.video-popup-content {
+  position: absolute;
+  left: 30px;
+  width: 24%;
+}
+
+.video-popup video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-close {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  display: block;
+  text-align: right;
+}
+
+.hidden {
+  display: none;
+}
+
+/******PROGRAMME VIDEO*********/
+
+#campaignVideo {
+  max-height: 600px;
+}

@@ -34,10 +34,40 @@
       </a>
     </div>
     {{ end }}
+
   </div>
-  {{ if site.Params.instagram.enabled }}
-  <div id="instafeed"
-    class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3 pb-5 pt-5"></div>
-  {{ end }}
 </div>
+<div id="pip-video" style="display:none;">
+  <video id="homeVideo" autoplay muted playsinline controls>
+    <source src="/videos/fisel.mp4" type="video/mp4">
+  </video>
+  <button id="close-video">X</button>
+  <div id="restore-label">▶</div>
+</div>
+
+<div class="container vignette">
+  <h2>Ils nous soutiennent</h2>
+  <div class="vignette-track">
+    <div class="vignette-item">
+      <video muted preload="metadata" width="200" height="112">
+        <source src="/videos/cultivons-notre-avenir-1.mp4" type="video/mp4">
+      </video>
+      <span class="play-icon">▶</span>
+    </div>
+    <div class="vignette-item">
+      <video muted preload="metadata" width="200" height="112">
+        <source src="/videos/cultivons-notre-avenir-2.mp4" type="video/mp4">
+      </video>
+      <span class="play-icon">▶</span>
+    </div>
+  </div>
+</div>
+
+<!-- Overlay vidéo -->
+<div id="video-overlay" style="display:none;">
+  <div id="overlay-bg"></div>
+  <video id="overlay-video" controls></video>
+  <button id="overlay-close">X</button>
+</div>
+
 {{ end }}

@@ -14,8 +14,6 @@
   <main>
     {{ block "main" . }}
     {{ end }}
-
-
   </main>
   <footer class="mt-auto">
     {{ partial "footer.html" . }}
@@ -23,5 +21,8 @@
 </body>
 {{ partialCached "head/js.html" . }}
 <script src="/js/popup.js" defer></script>
+{{ if .IsHome }}
+<script src="/js/video-pip.js"></script>
+{{ end }}
 
 </html>

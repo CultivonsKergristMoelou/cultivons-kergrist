@@ -1,6 +1,7 @@
 ---
 title: "La liste"
 weight: 7
+image: "/images/liste.webp"
 ---
 
 Une équipe de 17 citoyennes et citoyens engagés, représentatifs de la diversité et des générations de Kergrist-Moëlou.

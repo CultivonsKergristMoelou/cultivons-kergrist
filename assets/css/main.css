@@ -199,9 +199,9 @@ p {
 
 .section-image-wrapper img {
   width: 80%;
-  max-height: 244px;
   height: auto;
-  display: block;
+  display: flex;
+  margin: auto;
 }
 
 .section h3 {
@@ -224,30 +224,101 @@ p {
   border-color: #2c5e2e;
 }
 
-/* Icônes plus grandes et colorées  */
-/*.section-icon i {
-  font-size: 3rem;
-  color: #f7e018;
-  margin-bottom: 20px;
+/* --- vignette --- */
+.vignette {
+  margin-top: 3rem;
+}
+
+.vignette-track {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin-top: 1rem;
+  overflow-x: auto; /* scroll horizontal si nécessaire */
+  padding-bottom: 10px;
+  min-height: 120px;
+}
+
+.vignette-item {
+  position: relative;
+  flex: 0 0 200px;
+  height: 112px; /* ratio 16:9 */
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
   display: block;
 }
-*/
 
-/* Titres des sections 
-.section-title {
-  color: #2c5e2e;
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}*/
+.vignette-item:hover {
+  transform: scale(1.05);
+}
+.vignette-item .play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
+.vignette-item video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+/* Overlay */
+#video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
 
-/* Lien pour rendre toute la carte cliquable */
-/*.section-link {
-  text-decoration: none;
-  color: inherit;
-}*/
+#overlay-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
 
-/* ---LISIBILITÉ --- */
+#overlay-video {
+  width: 60%;
+  max-width: 350px;
+  z-index: 10;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+#overlay-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 11;
+  font-size: 18px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  .vignette-track {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .vignette-item {
+    flex: 0 0 auto;
+    margin-bottom: 20px;
+  }
+}
+
 /* --- MOBILE --- */
 @media (max-width: 768px) {
   .intro-texte p {
@@ -411,5 +482,120 @@ p {
   }
   .popup-img {
     width: 100%;
+  }
+}
+
+/******VIDEOS*********/
+#pip-video {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 340px;
+  z-index: 2000;
+  background: #2c5e2e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(44, 94, 46, 0.4);
+  transition: all 0.3s ease;
+}
+
+#pip-video video {
+  width: 100%;
+  display: block;
+}
+
+/* bouton */
+
+#close-video {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border: none;
+  background: rgba(44, 94, 46, 0.6);
+  color: #f7e018;
+  font-size: 16px;
+  padding: 4px 8px;
+  cursor: pointer;
+  z-index: 3000;
+  border: none;
+  border-radius: 4px;
+}
+/* état réduit */
+#pip-video.minimized {
+  width: 120px;
+  height: 68px; /* ratio 16:9 */
+  bottom: 10px;
+  right: 10px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgba(44, 94, 46, 0.3);
+}
+
+#pip-video.minimized video {
+  width: 100%;
+  height: 100%;
+}
+#restore-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #2c5e2e;
+  font-size: 16px;
+  display: none;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10000;
+}
+
+#pip-video.minimized #restore-label {
+  display: block;
+}
+#pip-video::after {
+  content: "🔊 cliquez pour activer le son";
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(44, 94, 46, 0.6);
+  color: #f7e018;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+#pip-video.sound-on::after {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  #pip-video {
+    width: 55%;
+    right: 5%;
+    bottom: 20%;
+  }
+}
+@media (max-width: 600px) {
+  #pip-video {
+    width: 90%;
+    right: 5%;
+    bottom: 10px;
+  }
+}
+/******PROGRAMME VIDEO*********/
+
+#campaignVideo {
+  width: 60%;
+  box-shadow: 0 5px 15px rgba(44, 94, 46, 0.3);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 1024px) {
+  #campaignVideo {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  #campaignVideo {
+    width: 90%;
   }
 }
